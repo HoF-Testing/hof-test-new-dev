@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+/* TODO: **INSERT CODE**: Debug and fix the color and position of both the top navigation bar and sidebar
+ using the appropriate css properties*/
+
+
+.navbar {
+	overflow: hidden;
+	background-color: #333;
+	top: 0;
+	width: 100%;
+  }
+
+  .navbar a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+  }
+
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 30px 0;
+	min-height: 100vh;
+	margin-left: 300px;
+	margin-top: 30px;
+}
+
+img {
+	max-width: 100%;
+}
+
+p {
+	margin-bottom: 5px;
+}
+
+h3 {
+	margin: 0;
+}
+
+h5 {
+	margin: 10px 0;
+}
+
+li {
+	margin-bottom: 0;
+}
+
+.meal {
+	margin: 20px 0;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 25px;
+	height: 0;
+}
+
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.sidenav {
+  height: 100%;
+  width: 150px;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+
