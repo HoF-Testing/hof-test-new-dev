@@ -24,7 +24,7 @@ node server
 ```
 
 
-## Developmental tasks(See TODO in code)
+## Developmental tasks (See TODO in code)
 
 * Create an appropriate sidebar, with appropriate navigation links similar to the one in the screenshots
 * Ensure that both the side bar and navigation bars are correctly styled and generally dark blue in color
